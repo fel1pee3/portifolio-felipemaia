@@ -18,7 +18,7 @@
   margin: 0 15px;
 }
 
-.cta span {
+.cta .hover-underline-animation {
   padding-bottom: 7px;
   letter-spacing: 4px;
   font-size: 14px;
