@@ -7,10 +7,6 @@
   font-size: 1.8em;
   letter-spacing: 3px;
 }
-.logo:hover{
-  transition: .3;
-  color: #C5D7D9;
-}
 .cta {
   border: none;
   background: #c5d7d900;
@@ -25,18 +21,6 @@
   text-transform: uppercase;
 }
 
-.cta svg {
-  transform: translateX(-8px);
-  transition: all 0.3s ease;
-}
-
-.cta:hover svg {
-  transform: translateX(0);
-}
-
-.cta:active svg {
-  transform: scale(0.9);
-}
 
 .hover-underline-animation {
   position: relative;
@@ -70,13 +54,14 @@ a{
 
 nav {
   position: fixed;
-  width: 100%;
+  width: 100%;  
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background: #010D26;
+  background: #9FBCBF;
   height: 10vh;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.24);
 }
   
 .nav-list {

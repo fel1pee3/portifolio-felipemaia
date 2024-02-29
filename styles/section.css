@@ -24,7 +24,7 @@ main{
     width: 300px;
     height: 300px;  
     margin-right: 150px;
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0);
 }
 .conteudo-home{
     width: 50%; 
@@ -46,23 +46,18 @@ main{
     background-color: #f0f0f0;
     padding-bottom: 100px;
 }       
-.about-inicio{
+.caixa-inicio{
     width: 50%;
     padding: 50px 0 0 50px;
 }
-.about-inicio h1{
+.title-section{
     font-size: 2.6em;
     width: max-content;
     font-weight: 300;
     margin-bottom: 20px;
     border-bottom: 3px solid #010D26;
 }       
-.traco{
-    width: 140px;
-    height: 4px;
-    color: aquamarine;
-}
-.about-inicio p{
+.txt-section{
     font-size: 1.3em;
     font-weight: 400;   
     margin-bottom: 40px;    
@@ -99,4 +94,58 @@ main{
     background-color: #9FBCBF;
     margin: 0px 17px 17px 0;
     padding: 10px 20px;
+}
+
+#projects{
+    padding: 30px 0 100px 0;
+    background-image: url("../imgs/img-fundo2.svg");
+    
+}
+.container-projetos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+#contact{
+    background-color: #C5D7D9;
+    padding-bottom: 70px;
+}
+.formulario{
+    padding-left: 50px;
+}
+.container-contacts{
+    display: flex;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    width: 40%;
+    margin-top: 52px;
+}
+.contacts p{
+    color: #010d26ce;
+    font-weight: 400;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+.info-contacts{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.info-contacts h3{
+    font-size: 1.2em;
+    color: #010d26e0;
+}
+.info-contacts img{
+    width: 36px;
+    height: 36px;
+    margin-right: 15px;
+    background-color: #5d878c67;
+    padding: 8px;
+    border-radius: 50%;
 }

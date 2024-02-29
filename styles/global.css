@@ -155,3 +155,121 @@ body{
   right: 15%;
   animation-delay: 0.3s;
 }
+
+/*Icons Logos*/
+
+.icons-social-media {
+  align-items: center;
+  margin-top: 21px;
+  padding: 5px;
+  width: 32px;
+  cursor: pointer !important;
+  transition: 300ms all ease-in-out;
+  position: relative;
+}
+
+.icons-social-media:hover {
+  translate: -0px -10px;
+}
+
+#instagram,
+    #youtube,#twitch {
+  transition: 300ms all ease-in-out;
+  clip-path: circle(65%);
+}
+
+#instagram:hover {
+  background-color: rgb(221, 157, 189);
+}
+
+#youtube {
+  height: 35px;
+}
+
+#youtube:hover {
+  background-color: rgb(241, 96, 96);
+}
+
+#twitch:hover {
+  background-color: rgb(196, 143, 245);
+}
+
+/*Cards*/
+
+.cards {
+  width: 100%;
+  margin: 0 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+.cards .card {
+  height: 360px;
+  width: 290px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 400ms;  
+  background-color: #9FBCBF;
+  border-radius: 20px;
+  box-shadow:  11px 11px 22px #acacac,
+                -11px -11px 22px #ffffff6e;  
+}
+
+.cards .card:hover {
+  transform: scale(1, 1);
+}
+
+.cards:hover > .card:not(:hover) {
+  filter: blur(5px);
+  transform: scale(0.9, 0.9);
+} 
+
+/*Imputs*/
+.input {
+  margin-bottom: 20px;
+  width: 350px;
+  height: 37px;
+  background-color: #5d878c67;
+  border-radius: .5rem;
+  padding: 0 18px;
+  border: 2px solid transparent;
+  font-size: 1rem;
+  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+  
+}
+input[type=number] { 
+ -moz-appearance: textfield;
+ appearance: textfield;
+}
+.fomr_comentario{
+  resize: none; 
+  display: flex;
+  align-items: center;
+  padding: 10px 18px;
+  height: 70px;
+}
+
+.label {
+  display: block;
+  margin-bottom: .3rem;
+  font-size: .9rem;
+  font-weight: bold;
+  color: #05060f99;
+  transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
+}
+
+.input:hover, .input:focus, .input-group:hover .input {
+  outline: none;
+  border-color: #05060f;
+}
+
+.input-group:hover .label, .input:focus {
+  color: #05060fc2;
+}

@@ -32,10 +32,16 @@
                 <div class="conteudo-home">
                     <h1>Opaa, eu me chamo Felipe Maia</h1>
                     <p>"Sou um Desenvolvedor focado em Frontend e criador de páginas Web. Sempre pronto para novos desafios!"</p>
+                    <div class="links">
+                        <a href="#"><img src="imgs/icon-linkedin.png" alt="" class="icons-social-media"></a>
+                        <a href="#"><img src="imgs/icon-github.png" alt="" class="icons-social-media"></a>
+                        <a href="#"><img src="imgs/icon-insta.png" alt="" class="icons-social-media"></a>
+                        <a href="#"><img src="imgs/icon-whats.png" alt="" class="icons-social-media"></a>
+                    </div>
                     <a href="#projects"><button class="bot">Projetos</button></a>
                 </div>
                 <div class="img-eu">
-                    <img src="imgs/img-eu.svg" alt="">
+                   
                 </div>
             </div>
             <div class="typing-indicator">
@@ -49,9 +55,9 @@
         </section>
 
         <section id="about">
-            <div class="about-inicio">
-                <h1>Sobre Mim </h1>
-                <p>Aqui você encontrará informações adicionais sobre mim, incluindo minhas atividades, habilidades atuais, especialmente no campo da programação e tecnologia.</p>
+            <div class="caixa-inicio">
+                <h1 class="title-section">Sobre Mim </h1>
+                <p class="txt-section">Aqui você encontrará informações adicionais sobre mim, incluindo minhas habilidades atuais, especialmente no campo da programação e tecnologia.</p>
             </div>
             <div class="about-container">
                 <div class="about-caixa">
@@ -83,8 +89,108 @@
             </div>
         </section>
         <section id="projects">
+            <div class="caixa-inicio">
+                <h1 class="title-section">Projetos</h1>
+                <p class="txt-section">Aqui estão alguns dos projetos pessoais que desenvolvi, cada um acompanhado das habilidades que possuo.</p>
+            </div>
+            <div class="container-projetos">
+                <div class="cards">
+                    <div class="card red">
+                        <div class="img">
+                            
+                        </div>
+                        <div class="infos">
 
+                        </div>
+                    </div>
+                    <div class="card blue">
+                        <div class="img">
+                            
+                        </div>
+                        <div class="infos">
+
+                        </div>
+                    </div>
+                    <div class="card green">
+                        <div class="img">
+                            
+                        </div>
+                        <div class="infos">
+
+                        </div>
+                    </div>
+                    <div class="card green">
+                        <div class="img">
+                            
+                        </div>
+                        <div class="infos">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+
+        <section id="contact">
+            <div class="caixa-inicio">
+                <h1 class="title-section">Contato</h1>
+                <p class="txt-section">Sinta-se à vontade para entrar em contato comigo enviando o formulário abaixo e entrarei em contato com você o mais breve possível.</p>
+            </div>
+
+            <div class="container-contacts">
+                <form action="http://formmail.kinghost.net/formmail.cgi" method="POST" class="formulario">
+                    <input type="hidden" name="recipient" value="jofelipefm@gmail.com">
+                    <input type="hidden" name="redirect" value="https://fel1pee3.github.io/portifolio-profissional/">
+                    <input type="hidden" name="subject" value="Menssagem referente ao Portifolio">
+                    <input type="hidden" name="email" value="jofelipefm@gmail.com">
+                
+                
+                    <div class="input-group">
+                        <label class="label">Nome Completo</label>
+                        <input autocomplete="off" type="text" size="30" name="Nome" class="input" required="">
+                        <div></div>
+                    </div>
+                    <div class="input-group">
+                        <label class="label">Telefone</label>
+                        <input autocomplete="off" type="number" size="30" name="Nome" class="input" required="">
+                        <div></div>
+                    </div>
+                    <div class="input-group">
+                        <label class="label">Email</label>
+                        <input autocomplete="off" type="text" size="30" name="replyto" class="input" required="">
+                        <div></div>
+                    </div>
+                    <div class="input-group">
+                        <label class="label">Assunto</label>
+                        <textarea name="Comentario" id="" cols="30" rows="10" class="input fomr_comentario" required=""></textarea>
+                        <div></div>
+                    </div>
+                
+                    <button value="Enviar" class="bot">Enviar</button>
+                </form>
+
+                <div class="contacts">
+                    <p>Se ficou satisfeito com o meu trabalho, não hesite em entrar em contato comigo para colocarmos nossas ideias em prática. Estou ansioso para colaborar com você.<p>
+                    <div class="info-contacts">
+                        <img src="imgs/icon-whats.png" alt="">
+                        <div><h3>WhatsApp</h3><p>(85) 99694-2659</p></div> 
+                    </div>
+                    <div class="info-contacts">
+                        <img src="imgs/icon-email.png" alt="">
+                        <div><h3>Email</h3><p>jofelipefm@gmail.com</p></div> 
+                    </div>
+                    <div class="info-contacts">
+                            <img src="imgs/icon-gps.png" alt="">
+                        <div><h3>Endereço</h3><p>Maracanaú, CE - Brasil</p></div> 
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <footer id="rodape">
+            
+        </footer>
     </main>
 
       <script src="./scripts/header.js"></script>
