@@ -1,4 +1,7 @@
 @media (max-width: 800px) {
+    .img-eu img{
+        display: none;
+    }
     .about-container{
         display: flex;
         flex-direction: column;
