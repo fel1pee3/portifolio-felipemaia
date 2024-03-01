@@ -1,0 +1,44 @@
+@media (max-width: 800px) {
+    .about-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-caixa{
+        width: 80%;
+        margin: 25px 0;
+    }
+    .caixa-inicio{
+        width: 80%;
+        padding: 50px 40px 0 40px;
+    }
+    .container-projetos{
+        width: 80%;
+        margin: auto;
+    }
+    .container-contacts{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .contacts{
+        width: 80%;
+        margin: 50px 0 50px 50px;
+    }
+    .contacts p{
+        width: 100%;
+    }
+}
+
+@media (max-width: 760px) {
+    .conteudo-home{
+        width: 100%;
+        margin: 100px 40px 100px 40px;
+    }
+}
+
+@media (max-width: 500px){
+    .input{
+        width: 100%;
+    }
+}

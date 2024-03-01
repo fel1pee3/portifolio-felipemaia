@@ -62,6 +62,7 @@ nav {
   background: #9FBCBF;
   height: 10vh;
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.24);
+  z-index: 9;
 }
   
 .nav-list {
@@ -96,8 +97,8 @@ nav {
     right: 0;
     width: 50vw;
     height: 50vh;
-    border-top: 2px solid #C5D7D9;
-    background: #010D26;
+    margin-top: 3px;
+    background: #9FBCBF;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
