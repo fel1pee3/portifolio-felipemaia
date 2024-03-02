@@ -12,6 +12,7 @@
   background: #c5d7d900;
   cursor: pointer;
   margin: 0 15px;
+  cursor: url("../imgs/cursor-pointer2.png"), default;  
 }
 
 .cta .hover-underline-animation {

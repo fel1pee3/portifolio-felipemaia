@@ -2,7 +2,7 @@ window.sr = ScrollReveal({reset: true});
 
 sr.reveal(".section-scroll", {
     duration: 900,
-    delay: 200,
+    delay: 180,
     easing: "ease-in",
 });
 sr.reveal(".caixa-scroll", {
