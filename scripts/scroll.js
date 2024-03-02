@@ -7,7 +7,7 @@ sr.reveal(".section-scroll", {
 });
 sr.reveal(".caixa-scroll", {
     duration: 900,
-    delay: 400,
+    delay: 300,
     distance: "100px",
     easing: "ease-in",
     origin: 'left'

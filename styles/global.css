@@ -8,6 +8,18 @@
   --cor5: #C5D7D9;
 }
 
+body::-webkit-scrollbar {
+  width: 18px;             
+}
+
+body::-webkit-scrollbar-track {
+  background: #9FBCBF;       
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #013A40;
+}
+
 html{
   scroll-behavior: smooth;
 }
@@ -19,6 +31,7 @@ html{
 body{
   width: 98.7vw;
   color: #000a20;
+  cursor: url("../imgs/mouse-removebg-preview3.png"), default;  
 }
 
 
