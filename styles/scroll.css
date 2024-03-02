@@ -4,3 +4,6 @@
 .caixa-scroll, .footer-scroll{
     visibility: hidden;
 }
+.header-scroll, .caixa-scroll-surgi{
+    visibility: hidden;
+}

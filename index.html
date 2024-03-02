@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="header-scroll">
             <a class="logo" href="#">FELIPE MAIA</a>
             <div class="mobile-menu">
               <div class="line1"></div>
@@ -30,8 +30,8 @@
     </header> 
 
     <main>
-        <section id="home" class="section-scroll">
-            <div class="home-caixa-conteudo">
+        <section id="home">
+            <div class="home-caixa-conteudo caixa-scroll-surgi">
                 <div class="conteudo-home">
                     <h1>Olá, eu me chamo Felipe Maia</h1>
                     <p>"Sou um Desenvolvedor focado em Frontend e criador de páginas Web. Sempre pronto para novos desafios!"</p>
@@ -57,8 +57,8 @@
             </div>
         </section>
 
-        <section id="about" class="section-scroll">
-            <div class="caixa-inicio">
+        <section id="about">
+            <div class="caixa-inicio caixa-scroll-surgi">
                 <h1 class="title-section">Sobre Mim </h1>
                 <p class="txt-section">Aqui você encontrará informações adicionais sobre mim, incluindo minhas habilidades atuais, especialmente no campo da programação e tecnologia.</p>
             </div>
@@ -93,8 +93,8 @@
             </div>
         </section>
         
-        <section id="projects" class="section-scroll">
-            <div class="caixa-inicio">
+        <section id="projects">
+            <div class="caixa-inicio caixa-scroll-surgi">
                 <h1 class="title-section">Projetos</h1>
                 <p class="txt-section">Aqui estão alguns dos projetos pessoais que desenvolvi, cada um acompanhado das habilidades que possuo.</p>
             </div>
@@ -154,13 +154,13 @@
             </div>
         </section>
 
-        <section id="contact" class="section-scroll">
+        <section id="contact">
             <div class="caixa-inicio">
                 <h1 class="title-section">Contato</h1>
                 <p class="txt-section">Sinta-se à vontade para entrar em contato comigo enviando o formulário abaixo e entrarei em contato com você o mais breve possível.</p>
             </div>
 
-            <div class="container-contacts">
+            <div class="container-contacts caixa-scroll">
                 <form action="http://formmail.kinghost.net/formmail.cgi" method="POST" class="formulario">
                     <input type="hidden" name="recipient" value="jofelipefm@gmail.com">
                     <input type="hidden" name="redirect" value="https://fel1pee3.github.io/portifolio-felipemaia/">
@@ -211,21 +211,23 @@
             </div>
         </section>
 
-        <footer id="rodape" class="section-scroll">
-            <h1>FELIPE MAIA</h1>
-            <div class="links-socia-rodape">
-                <a href="https://www.linkedin.com/in/felipe-maia-386019281/" target="_blank"><img src="imgs/icon-linkedin-white.png" alt="" class="icons-link-rodape"></a>
-                <a href="https://github.com/fel1pee3" target="_blank"><img src="imgs/icon-github-white.png" alt="" class="icons-link-rodape"></a>
-                <a href="https://www.instagram.com/felipee3_maia/" target="_blank"><img src="imgs/icon-insta-white.png" alt="" class="icons-link-rodape"></a>
-                <a href="https://api.whatsapp.com/send?phone=5585996942659&text=Sou%20um%20programador%20Front%20End%20e%20criador%20de%20p%C3%A1ginas%20web,%20no%20que%20posso%20lhe%20ajuda?" target="_blank"><img src="imgs/icon-whats-white.png" alt="" class="icons-link-rodape"></a>
+        <footer id="rodape">
+            <div class="caixa-scroll-surgi">
+                <h1>FELIPE MAIA</h1>
+                <div class="links-socia-rodape">
+                    <a href="https://www.linkedin.com/in/felipe-maia-386019281/" target="_blank"><img src="imgs/icon-linkedin-white.png" alt="" class="icons-link-rodape"></a>
+                    <a href="https://github.com/fel1pee3" target="_blank"><img src="imgs/icon-github-white.png" alt="" class="icons-link-rodape"></a>
+                    <a href="https://www.instagram.com/felipee3_maia/" target="_blank"><img src="imgs/icon-insta-white.png" alt="" class="icons-link-rodape"></a>
+                    <a href="https://api.whatsapp.com/send?phone=5585996942659&text=Sou%20um%20programador%20Front%20End%20e%20criador%20de%20p%C3%A1ginas%20web,%20no%20que%20posso%20lhe%20ajuda?" target="_blank"><img src="imgs/icon-whats-white.png" alt="" class="icons-link-rodape"></a>
+                </div>
+                <div class="links-navegar">
+                    <a href="#home" class="link-navegar">Início</a>
+                    <a href="#about" class="link-navegar">Sobre</a>
+                    <a href="#projects" class="link-navegar">Projetos</a>
+                    <a href="#contact" class="link-navegar">Contato</a>
+                </div>
+                <p class="p-fim">© 2024 | Felipe Maia</p>
             </div>
-            <div class="links-navegar">
-                <a href="#home" class="link-navegar">Início</a>
-                <a href="#about" class="link-navegar">Sobre</a>
-                <a href="#projects" class="link-navegar">Projetos</a>
-                <a href="#contact" class="link-navegar">Contato</a>
-            </div>
-            <p class="p-fim">© 2024 | Felipe Maia</p>
         </footer>
     </main>
 
