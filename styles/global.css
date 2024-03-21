@@ -205,6 +205,10 @@ a{
   box-shadow:  20px 20px 51px #919191,
              -20px -20px 51px #c5c5c5;
 }
+.project1{
+  background-image: url("../imgs/cinelibrary-img1.png");
+  background-size: cover;
+}
 
 .card::before {
   content: '';
@@ -224,20 +228,6 @@ a{
   height: 100%;
   filter: blur(30px);
 } 
-
-.card img {
-  position: absolute;
-  z-index: 3;
-  scale: 0.8;
-  opacity: 0.25;
-  transition: 0.5s;
-}
-
-.card:hover img {
-  scale: 0.5;
-  opacity: 0.9;
-  transform: translateY(-70px);
-}
 
 .card .content {
   position: absolute;
@@ -260,7 +250,7 @@ a{
   color: #fff;
   font-weight: 500;
   line-height: 1em;
-  font-size: 1em;
+  font-size: 1.1em;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   text-align: center;
@@ -268,7 +258,7 @@ a{
 
 .content .title span {
   font-weight: 300;
-  font-size: 0.70em;
+  font-size: 0.80em;
 }
 
 .content .sci {
@@ -286,7 +276,7 @@ a{
 .sci li a {
   position: relative;
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.678);
   background: rgba(0, 0, 0, 0.2);
   fill: currentColor;
   width: max-content; 
